@@ -32,20 +32,20 @@ const moy6 = {
     name: 'moy6',
     age: 22,
     sabeProgramar: false,
-    olor: 'huele a culo'
+    amor: 'Jordana'
 }
 
 let nombre = moy6.name
 console.log('soy ' + nombre)
 
 //desestructuracion de un objeto(desarmarlo para extraer propiedades)
-const { name, age, olor } = moy6;
+const { name, age, amor } = moy6;
 
 //concatenacion simple(no utilizar)
-console.log( name, age, olor)
+console.log( name, age, amor)
 
 //template strings/Concatenacion
-console.log(`hola me llamo ${name} y ${olor}`)
+console.log(`hola me llamo ${name} y mi amor es ${amor}`)
 
 
 
