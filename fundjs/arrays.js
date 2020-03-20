@@ -45,7 +45,7 @@ const nombres = [n1,n2];
 //console.log(nombres.sort());
 
 
-const paragraph = 'Anita lava la tina dentro de su casa con su mama que le ayuda a enjuagar las cosas';
+const paragraph = 'Anita lava la tina dentro de su casa con su mama que le ayuda a enjuagar las cosas para que esten limpias ';
 //intentar retornar cuantas veces aparece la letra a
 // usar acum
 // splittear la frase
@@ -83,4 +83,5 @@ const array = ['Esteban', 'Armandito', 'Luisito', 'Moy6', 'Monche', 'Jackie', 'R
 array.map(el => console.log(el));
  
 //Includes
+//revisa en todo el arreglo si esta presente los caracteres que nosotros especifiquemos
 console.log(array.includes('Armandito'));
