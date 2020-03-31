@@ -61,3 +61,9 @@ getEmploye(2, (err, userDB) =>{
         console.log(`el salario del ${nombre} es ${salario}`)
     })
 })
+
+
+//crear una funcion que cree una frase
+const frase = 'man bite dog'
+// y la acomode asi: dog bite man
+//no podemos usar reverse
